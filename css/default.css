@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft JhengHei";
+}
+li{
+    list-style: none;
+}
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: calc(100vw/19.2);
+    background-color: #000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #050126;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    user-select:none;
+}
+.shadow{
+    box-shadow: .04rem .04rem .2rem #000;
+}
+.w1700{
+    position: absolute;
+    width: 17.1rem;
+    margin: auto;
+    left: 50%;
+    margin-left: -8.5rem;
+    overflow: hidden;
+}
+.float-container{
+    height: 100%;
+    width: 110%;
+}
+.fullscreen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    overflow: hidden;
+    z-index: -1;
+}
+/*
+***顶部导航栏***
+*/
+#navigationBar{
+    height: 0.8rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+#navigationBar .v-center{
+    height: .56rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -.28rem;
+}
+#navigationBar .logo{
+    position: absolute;
+    width: .74rem;
+    height: .56rem;
+    display: block;
+    float: left;
+    background-image: url(img/logo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#navigationBar .navbar{
+    line-height: .56rem;
+    height: 100%;
+    float: right;
+    position: relative;
+    border-bottom: .01rem solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+#navigationBar .navbar li{
+    float: left;
+    padding: 0 .2rem;
+    font-size: .16rem;
+}
+#navigationBar .navbar li a{
+    color: rgba(255, 255, 255, .6);
+}
+#navigationBar .navbar li a:hover{
+    color:#fff;
+}
+#navigationBar .navbar li .focus{
+    color:#fff;
+}
+.navbar-underline{
+    display: block;
+    position: absolute;
+    height: .02rem;
+    width: .5rem;
+    background: #fff;
+    left: .2rem;
+    bottom: 0;
+    border-radius: .01rem;
+}
+.navbar-underline-container{
+    height:.02rem;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background:rgba(255,255,255,0.2);
+    left:0
+}

@@ -1,0 +1,63 @@
+html{
+    font-size: calc(100vw/19.2);
+}
+.contact-area{
+    padding: 60px 0 0 0;
+}
+.news-pc{
+    padding: 2px;
+}
+.news-pc>div{
+    position: relative;
+    overflow: hidden;
+    border-radius: .05rem;
+    padding: 0;
+    background-color: #0a1520;
+}
+.news-pc>div::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.news-pc .pic{
+    height: 170px;
+    padding: 0;
+}
+.news-pc .pic img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.news-pc .content{
+    padding: 0 .2rem;
+}
+.news-pc .title{
+    padding: 20px 0 6px 0;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.news-pc .text{
+    padding: 0;
+    font-size: 16px;
+    color: #888;
+    height: 88px;
+}
+.news-pc .text span{
+    line-height: 26px;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    padding: .06rem 0;
+}
+
+/* 游戏和视频资讯则使用另一种布局 */
+#game .title,#video .title{
+    text-align: center;
+    padding: .14rem 0;
+}
+#game .text,#video .text{
+    display: none;
+}

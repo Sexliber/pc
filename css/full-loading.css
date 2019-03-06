@@ -1,0 +1,156 @@
+#full-loading{
+    background: #222222;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}
+#logo-animate-container {
+    position: absolute;
+    height: 300px;
+    width: 720px;
+    top: 50%;
+    left: 50%;
+    margin: -150px -360px;
+}
+
+.logo-container {
+    position: relative;
+    width: 220px;
+    height: 180px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.title-container {
+    position: relative;
+    width: 444px;
+    height: 40px;
+    margin: auto;
+}
+
+.lineDrawing {
+    position: absolute;
+    width: 261px;
+    height: 175px;
+}
+
+.logo-2 {
+    left: 31px;
+    top: 0px;
+}
+
+.logo-3 {
+    left: 16px;
+    top: 8px;
+}
+
+.logo-4 {
+    left: 2px;
+    top: 12px;
+}
+
+.logo-5 {
+    left: 168px;
+    top: 146px;
+}
+
+.logo-6 {
+    left: 156px;
+    top: 155px;
+}
+
+.logo-7 {
+    left: 183px;
+    top: 155px;
+}
+
+.title-1 {
+    left: 0;
+    top: 0;
+}
+
+.title-2 {
+    left: 44px;
+    top: 0;
+}
+
+.title-3 {
+    left: 58px;
+    top: 0;
+}
+
+.title-4 {
+    left: 94px;
+    top: 0;
+}
+
+.title-5 {
+    left: 130px;
+    top: 0;
+}
+
+.title-6 {
+    left: 178px;
+    top: 19px;
+}
+
+.title-7 {
+    left: 164px;
+    top: 0;
+}
+
+.title-8 {
+    left: 204px;
+    top: 0;
+}
+
+.title-9 {
+    left: 233px;
+    top: 0;
+}
+
+.title-10 {
+    left: 280px;
+    top: 12px;
+}
+
+.title-11 {
+    left: 268px;
+    top: 0;
+}
+
+.title-12 {
+    left: 309px;
+    top: 18px;
+}
+
+.title-13 {
+    left: 335px;
+    top: 0;
+}
+
+.title-14 {
+    left: 364px;
+    top: 0;
+}
+
+.title-15 {
+    left: 376px;
+    top: 0;
+}
+#full-loading .text{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: .24rem;
+    letter-spacing: 0px;
+}
+#full-loading .text>span{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0px;
+}
